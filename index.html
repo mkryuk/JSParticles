@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+</head>
+	<body>	
+		
+        <!-- <div class="draggable" draggable="true">A</div> -->
+
+        <!-- <div class="draggable" draggable="true">B</div> -->
+
+        <canvas class="canvas" height="600" width="800"></canvas>
+        <canvas class="canvas2" height="600" width="800"></canvas>
+        <script src="collisions.js"></script>
+        <script src="collisions.gravity.js"></script>
+        <script type="text/javascript">
+        	window.onload = function(){
+        		runCollisions();
+        		runGravity();
+        	};
+        </script>
+        <!--script src="main.js"></script-->
+	</body>
+</html>
